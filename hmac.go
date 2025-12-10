@@ -7,7 +7,7 @@ import (
 )
 
 // SigningMethodHMAC implements the HMAC-SHA family of signing methods.
-// Expects key type of []byte for both signing and validation
+// Expects key type of []byte for both signi   ng and validation
 type SigningMethodHMAC struct {
 	Name string
 	Hash crypto.Hash
